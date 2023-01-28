@@ -1,0 +1,2151 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: content-box;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color:rgb(129, 31, 168);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 26px;
+    margin-top: 75px;
+}
+.contenedorTrabajos{
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imgTrabajos{
+    width: 150px;
+    height: 100px;
+    padding: 2px 5px 5px;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 30%);
+    margin: 0px 10px 60px;
+}
+.imgTrabajos:hover{
+    transform: scale(2.5);
+    transition: 2s;
+    box-shadow: none;
+}
+.contenedorMarcas{
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imgMarcas{
+    width: 120px;
+    height: 70px;
+    padding: 2px 5px 5px;
+    margin: 0px 5px;
+    
+}
+.imgMarcas:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: none;
+}
+.tituloOpiniones{
+    color: rgb(129, 31, 168);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 115px;
+    margin-top: 70px;
+}
+.contenedorTitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comillas{
+    width: 80px;
+    height: 60px;
+    margin-top: 100px;
+}
+#tituloInicio{
+    color: rgb(129, 31, 168);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.tituloPresupuesto{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 25px;
+}
+.tituloFormulario{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.imputs{
+    justify-self: center;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border: none;
+    border-radius: 2px;
+}
+.imputArea{
+    justify-self: center;
+    background-color: hsla(0, 0%, 100%, 0.623);
+    border: none;
+    border-radius: 2px;
+}
+.formularioPresupuesto{
+    width: 65%;
+    background-color: #bdc3c775;
+    margin: auto;
+    height: 375px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headerIndex{
+    width: 100%;
+    height: 680px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista-masculino-trabaja-centralita-cable-conexion-electrica_169016-15088.jpg);
+    background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista-masculino-trabaja-centralita-cable-conexion-electrica_169016-15088.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.headerItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.texto-header{
+    display: flex;
+    width: 100%;
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    color: hsla(0, 0%, 99%, 0.596);
+}
+.texto-header h2{
+    font-weight: 100;
+}
+#navIndex{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-right: 10px;
+}
+#logoHeader{
+padding-left: 50px;
+}
+.logoSolutions{
+    height: 100px;
+}
+#navIndex > a{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#navIndex > a:hover{
+   text-decoration: underline;
+}
+.ola{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 525px;
+    margin-top: 75px;
+}
+
+.contenedorinfo{
+    height: 650px;
+}
+.contenido-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenido-textos h3{
+   margin-bottom: 5px;
+   margin-top: 10px;
+   text-align: center;
+}
+.contenido-textos h3 span{
+background-color:rgb(129, 31, 168);
+color: aliceblue;
+border-radius: 50%;
+display: inline-block;
+text-align: center;
+width: 23px;
+height: 23px;
+margin-right: 10px;
+box-shadow:0 0 6px 0 rgba(0, 0, 0, 1);
+transition-duration: 0.5s;
+font-size: 15px;
+}
+.spanIndex:hover{
+    transform:scale(1.3)
+}
+.img-info{
+    width: 215px;
+    height: 235px;  
+}
+.img-infoEnchufe{
+    width: 190px;
+    height: 230px;
+    margin-top: 30px;
+}
+.contenido-textos p {
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+}
+.productos{
+    background: #eeeeee;
+    height: 650px;
+}
+.cajaProductos{
+    display: flex;
+}
+.imagenes{
+    width: 100%;
+    margin: 5px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+.imagenes > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(283, 69%, 39%, 0.466);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.hover-galeria > a{
+    text-decoration: none;
+}
+.hover-galeria img{
+    width: 160px;
+}
+.hover-galeria p{
+    color:aliceblue;
+    margin-bottom: 30px;
+}
+.imagenes:hover .hover-galeria{
+    transform: scale(1);
+}
+.contenedorOpiniones{
+    height: 600px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards .card{
+    background:hsla(283, 72%, 45%, 0.747);
+    display: flex;
+    width: 46%;
+    height: 215px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid hsla(0, 0%, 100%, 0.959);
+    border-radius: 50%;
+    display: block;
+}
+.texto-contenido-card{
+    text-align:left;
+    margin-left: 5px;
+    color: rgb(36, 36, 36);
+}
+.texto-contenido-card p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.contenedorPresupuesto{
+    width: 100%;
+    height: 600px;
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/imagenFooter.jpeg);
+    background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/imagenFooter.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.botonPresupuesto{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(129, 31, 168);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+    background-color: rgb(41, 41, 41);
+
+}
+.content-footer{
+    display: flex;
+    justify-content: center;
+}
+#imgLogo{
+    height: 50px;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+#imgLogo:hover{
+    transform: scale(0.9);
+}
+#imgLogoF{
+    height: 45px;
+    margin-left: 60px;
+    transition-duration: 0.2s;
+    transition-delay: 0.5;
+    margin-top: 5px;
+}
+#imgLogoF:hover{
+    transform: scale(0.9);
+}
+#imgLogoI{
+    height: 45px;
+    margin-right:60px ;
+    transition-duration: 0.2s;
+    transition-delay: 0.5;
+    margin-top: 5px;
+}
+#imgLogoI:hover{
+    transform: scale(0.9);
+}
+
+/** PAGE AYUDA **/
+
+#headerAyuda{
+    background-color: rgb(41, 41, 41);
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#navAyuda{
+    padding-right: 20px;
+}
+#navAyuda > a{
+    color:aliceblue;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#navAyuda>a:hover{
+    text-decoration: underline;
+}
+#logoAyuda img{
+    height: 70px;
+    margin-left: 50px;
+}
+.imgPreguntas{
+    overflow: hidden;
+    background-image: url(../img/imagenayuda.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 890px;
+}
+.contenedorPreguntas{
+    width: 100%;
+    background-color: #ffffff80;
+    height: 890px;
+}
+.imgPregunta>img{
+    width: 100px;
+    height: 150px;
+}
+.imgPregunta{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenidoTextosAyuda{
+    width: 100%;
+    margin: auto;
+}
+.contenidoTextosAyuda h1{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+ }
+ .contenidoTextosAyuda h1 span{
+ background-color:rgb(129, 31, 168);
+ color: aliceblue;
+ border-radius: 50%;
+ display: inline-block;
+ text-align: center;
+ width: 37px;
+ margin-right: 10px;
+ box-shadow:0 0 6px 0 rgba(0, 0, 0, 1);
+ }
+.p{
+     padding: 0px 0px 40px 40px;
+     text-align: justify;
+ }
+.medios{
+    padding-left: 40px;
+}
+.metodoPago{
+    width: 500px;
+    height: 50px;
+    margin: 0px 0px 20px 40px;
+}
+/* TIENDA  */
+
+
+.headerTienda{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(41, 41, 41);
+}
+#logoTienda > a> img{
+    height: 70px;
+    margin-left: 50px;
+}
+.navTienda >a{
+    color:aliceblue;
+    font-weight: 300;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.navTienda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainTienda{
+    background-color: #e9e9e9;
+}
+.chango{
+    width: 35px;
+}
+.producto{
+    background-color: rgb(255, 255, 255);
+    max-width: 16%;
+    padding:20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.producto > img{
+    width: 200px;
+    height: 280px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.04);
+}
+
+.precioProducto{
+    color: rgb(0, 0, 0);
+}
+#contenedorProductos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgb(228, 228, 228);
+}
+
+.boton{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color:rgb(129, 31, 168);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+}
+.boton-agregar{
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 30px;
+    border: 5px  #bdc3c7;
+}
+.boton-agregar::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left:0;
+    top:-200%;
+    background-color: rgb(173, 62, 218);
+    border-radius: 50%;
+    transition: all 0.8s ease;
+    z-index: -1;
+}
+.boton-agregar:hover::before{
+    top: 0;
+    border-radius: 0%;
+}
+.boton-agregar:hover{
+    box-shadow: 0 0 20px var(--color);
+    letter-spacing: 0.5px;
+    transition-duration: 1s;
+}
+.tituloTienda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px;
+    color:rgb(129, 31, 168);
+    background-color: rgb(228, 228, 228);
+}
+.tituloTienda > h1{
+    margin: 15px 0px 60px 0px;
+}
+#modal-container{
+    width: 77%;
+    max-height: 88vh;
+    color: #fff;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 5vh;
+    right: 13vw;
+    scrollbar-color: none;
+    border-radius: 15px;
+}
+#modal-container::-webkit-scrollbar{
+    display: none;
+}
+.modal-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(15, 15, 15);
+}
+.modal-header-titulo{
+    align-self: center;
+}
+.modal-header > h1{
+    color: #bdc3c7;
+    background-color: rgb(15, 15, 15);
+    align-self:center;
+}
+.modalHeaderButton{
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.modal-content{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.modal-content > img{
+    width: 80px;
+    padding: 10px;
+}
+.eliminar-content > img{
+    width: 23px;
+    cursor: pointer;
+    display: flex;
+}
+.eliminar-content > img:hover{
+    width: 25px;
+    transition: all 0.5s;
+}
+.total-content{
+    font-size: 25px;
+    padding: 6px;
+    text-align: center;
+    padding-top: 8px;
+}
+.cantidadCarrito{
+    width: 20px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: rgb(160, 28, 212);
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    display: none;
+    right: 10px;
+    top: 15px;
+}
+.botonY{
+    width: 150px;
+    height: 40px;
+    background-color:rgb(129, 31, 168);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 50px;
+}
+.botonN{
+    width: 150px;
+    height: 40px;
+    background-color:rgb(136, 136, 136);
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 50px;
+}
+.botonComprar{
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 30px;
+    border: 5px  #bdc3c7;
+}
+.botonComprar::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left:0;
+    top:-200%;
+    background-color: rgba(69, 25, 87, 0.336);
+    border-radius: 50%;
+    transition: all 0.8s ease;
+    z-index: -1;
+}
+.botonComprar:hover::before{
+    top: 0;
+    border-radius: 0%;
+}
+.botonComprar:hover{
+    box-shadow: 0 0 20px var(--color);
+    letter-spacing: 0.5px;
+    transition-duration: 1s;
+}
+.botonCancelar{
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 30px;
+    border: 5px  #bdc3c7;
+}
+.botonCancelar::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    left:0;
+    top:-200%;
+    background-color: rgba(80, 80, 80, 0.288);
+    border-radius: 50%;
+    transition: all 0.8s ease;
+    z-index: -1;
+}
+.botonCancelar:hover::before{
+    top: 0;
+    border-radius: 0%;
+}
+.botonCancelar:hover{
+    box-shadow: 0 0 20px var(--color);
+    letter-spacing: 0.5px;
+    transition-duration: 1s;
+}
+.sumar{
+cursor: pointer;
+}
+
+.restar{
+cursor: pointer;
+}
+.productoDescripcion{
+    color: rgb(121, 121, 121);
+    margin: 5px 0px 10px 0px;
+}
+.producto > h3{
+    margin-top: 5px;
+}
+/*Finalizar Compra*/
+.bodyFinalizar{
+    width: 100%;
+    height: 100%;
+}
+.headerFinalizar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(41, 41, 41);
+}
+.imgFinalizar{
+    background-color: #0000006c;
+    height: 1050px;
+    width: 100%;
+}
+.mainFinalizar{
+    background-image: url(../img/imagenayuda.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    height: 100%;
+    width: 100%;
+}
+.tituloFinalizar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    margin-top: 50px;
+}
+
+.botonesFinalizar{
+    height: 40px;
+    width: 120px;
+}
+.botonComprarF{
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(161, 72, 196);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botonComprarF:hover::before{
+    top: 0;
+    border-radius: 0%;
+}
+.botonComprarF:hover{
+    box-shadow: 3px 0px 30px rgba(0, 0, 0, .2);
+    letter-spacing: 0.9px;
+    transition-duration: 0.5s;
+    background-color: rgb(194, 109, 228);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formularioGrupo{
+    text-align: center;
+}
+.formularioLabel{
+    display: block;
+    font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+}
+.formularioGrupoInput{
+    position: relative;
+}
+.formularioInput{
+    width: 60%;
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 30px;
+    line-height: 45px;
+    padding: 0 40px 0 0;
+    transition: .3s ease all;
+    margin-left: 15px; 
+}
+.formularioInput:focus{
+    border: 3px solid rgb(189, 85, 230);
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(0, 0, 0, .2);
+}
+.formularioInputError{
+    font-size: 10px;
+    margin-bottom: 0;
+    display: none;
+}
+.formularioInputError-activo{
+    display: block;
+}
+.formularioEstado{
+    position:absolute;
+    right: 23px;
+    bottom: 10px;
+    color: rgb(255, 127, 127);
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formularioEstadoC{
+    position:absolute;
+    right: 30px;
+    bottom: 10px;
+    color: rgb(255, 127, 127);
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formularioEstadoE{
+    position:absolute;
+    right: 65px;
+    bottom: 10px;
+    color: rgb(255, 127, 127);
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formularioEstadoT{
+    position:absolute;
+    right: 40px;
+    bottom: 10px;
+    color: rgb(255, 127, 127);
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formularioCheckBox{
+    margin-right: 10px;
+    padding: 10px 0px;
+}
+.formularioMensaje{
+    background-color: rgb(255, 127, 127);
+    height: 45px;
+    font-size: 22px;
+    line-height: 45px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: none;
+    margin: 13px 0px;
+}
+.formularioMensaje > p{
+    font-size: 17px;
+}
+.formularioMensaje-activo{
+    display: block;
+}
+.formularioMensajeExito{
+    font-size: 14px;
+    color: rgb(74, 212, 86);
+    display: none;
+}
+.formularioMensajeExito-activo{
+    display: block;
+}
+.formularioGrupoCorrecto .formularioEstado{
+    color: #1ed12d;
+    opacity: 1;
+}
+.formularioGrupoCorrecto .formularioEstadoC{
+    color: #1ed12d;
+    opacity: 1;
+}
+.formularioGrupoCorrecto .formularioEstadoE{
+    color: #1ed12d;
+    opacity: 1;
+    right: 20px;
+}
+.formularioGrupoCorrecto .formularioEstadoT{
+    color: #1ed12d;
+    opacity: 1;
+    right: 20px;
+}
+.formularioGrupoIncorrecto .formularioLabel{
+    color: rgb(255, 127, 127);
+}
+.formularioGrupoIncorrecto .formularioEstado{
+    color: rgb(255, 127, 127);
+    opacity: 1;
+}
+.formularioGrupoIncorrecto .formularioEstadoC{
+    color: rgb(255, 127, 127);
+    opacity: 1;
+}
+.formularioGrupoIncorrecto .formularioEstadoE{
+    color: rgb(255, 127, 127);
+    opacity: 1;
+}
+.formularioGrupoIncorrecto .formularioEstadoT{
+    color: rgb(255, 127, 127);
+    opacity: 1;
+}
+.formularioGrupoIncorrecto .formularioInput{
+    border: 3px solid rgb(255, 127, 127);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1150px){
+    .img-infoEnchufe {
+        width: 190px;
+        height: 174px;
+        margin-top: 30px;
+    }
+    .img-info {
+        width: 206px;
+        height: 174px;
+    }
+    .producto > img {
+        width: 190px;
+        height: 275px;
+    }
+}
+
+@media(max-width:1100px){
+    .producto > img {
+        width: 180px;
+        height: 265px;
+    }
+    .botonN {
+        margin-left: 0px;
+    }
+    .botonY {
+        margin-left: 0px;
+    }
+    .infoModal{
+       font-size: 14px;
+    }
+    .modalCantidad{
+        font-size: 14px;
+    }
+    .modal-content > h3{
+        font-size: 14px;
+    }
+}
+@media(max-width:1050px){
+   .imgPregunta > img{
+       width: 50px;
+       height: 70px;
+       margin-top: 50px;
+   }
+   .imgPregunta{
+       display: flex;
+       flex-flow: row nowrap;
+       align-items: center;
+   }
+   .contenedorPreguntas{
+       width: 100%;
+       overflow: hidden;
+   }
+   .imgTrabajos {
+    width: 135px;
+    height: 92px;
+}
+.producto > img {
+    width: 170px;
+    height: 255px;
+}
+
+}
+@media(max-width:1000px){
+    .img-info {
+        height: 135px;
+    }
+    .modalCantidad{
+        font-size: 13px;
+    }
+    .img-infoEnchufe {
+        height: 135px;
+    }
+    .imgTrabajos {
+        width: 130px;
+        height: 85px;
+    }
+    .producto > img {
+        width: 160px;
+        height: 200px;
+    }
+}
+@media(max-width:950px) and (min-width: 900px){
+    .texto-contenido-card p {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+
+ @media(max-width:900px){
+    #tituloInicio{
+        color: rgb(129, 31, 168);
+        font-size: 30px;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .contenedorinfo {
+        height: 780px;
+        margin-top: 225px;
+    }
+    .contenedor-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-info {
+        width: 140px;
+        height: 140px;
+        justify-self: center;
+    }
+    .img-infoEnchufe {
+        width: 130px;
+        height: 140px;
+        margin-top: 50px;
+    }
+    .contenido-textos h3{
+        text-align: center;
+    }
+    .contenido-textos p{
+        text-align: center;
+        padding-bottom: 33px;
+    }
+    .texto-contenido-card p{
+        font-size: 13px;
+    }
+    .cards .card img{
+        width:90%;
+        height:90%;
+    }
+    .hover-galeria img {
+        width: 90px;
+    }
+    #headerIndex {
+        width: 100%;
+        height: 620px;
+        background: #bdc3c7;
+        background: -webkit-linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista2electrica_169016-15088.jpg);
+        background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista2electrica_169016-15088.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .texto-header {
+        font-size: 20px;
+    }
+    .producto > img {
+        width: 150px;
+        height: 185px;
+    }
+    .boton {
+        position: relative;
+        width: 118px;
+        height: 32px;
+        background-color: rgb(129, 31, 168);
+        color: #ffffff;
+        cursor: pointer;
+        text-align: center;
+    }
+    .boton-agregar {
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 30px;
+        border: 5px #bdc3c7;
+        font-size: 11px;
+    }
+    .producto > h3{
+       font-size: 16px;
+    }
+    .precioProducto{
+        margin:0px
+    }
+    .productoDescripcion{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    #logoTienda > a> img {
+        height: 70px;
+        margin-left: 15px;
+    }
+    .modal-header-titulo{
+        font-size: 26px;
+    }
+    .modal-content > img{
+        width: 50px;
+    }
+    
+    .modal-content > h3{
+        font-size: 11px;
+        margin: 0px 5px 0px 5px;
+    }
+    .infoModal{
+        font-size: 13px;
+        margin: 0px 9px;
+    }
+    .eliminar-content > img{
+        width: 20px;
+    }
+    .modalCantidad{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .botonY {
+        width: 133px;
+        height: 38px;
+    }
+    .botonN {
+        width: 133px;
+        height: 38px;
+    }
+    .restar{
+        font-size: 10px;
+    }
+    .sumar{
+        font-size: 10px;
+    }
+
+ }
+ @media(max-width:850px){
+    .imgPregunta > img{
+        width: 50px;
+        height: 70px;
+    }
+    .contenedorPreguntas{
+        margin: 0px;
+    }
+    .producto > img {
+        width: 150px;
+        height: 170px;
+    }
+ }
+ @media(max-width:800px){
+    .texto-contenido-card p{
+        font-size: 12px;
+    }
+    .cards .card img{
+        width:80%;
+        height:80%;
+    }
+    .producto > img {
+        width: 135px;
+        height: 150px;
+    }
+    .modal-header-titulo{
+        font-size: 26px;
+    }
+    .modal-content > img{
+        width: 40px;
+    }
+    
+    .modal-content > h3{
+        font-size: 10px;
+        margin: 0px 5px 0px 5px;
+    }
+    .infoModal{
+        font-size: 12px;
+        margin: 0px 7px;
+    }
+    .eliminar-content > img{
+        width: 16px;
+    }
+    .modalCantidad{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .botonY {
+        width: 125px;
+        height: 36px;
+        font-size: 12px;
+        margin: 0px;
+    }
+    .botonN {
+        width: 125px;
+        height: 36px;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .sumar{
+        font-size: 10px;
+    }
+
+    .restar{
+        font-size: 10px;
+    }
+
+ 
+ }
+ @media(max-width:750px){
+    .tituloOpiniones {
+        font-size: 25px;
+    }
+    .comillas {
+        width: 70px;
+        height: 50px;
+        margin-top: 100px;
+    }
+ }
+ @media(max-width:700px){
+    .cards .card img{
+        width:70%;
+        height:70%;
+    }
+    #headerIndex {
+        width: 100%;
+        height: 570px;
+        background: #bdc3c7;
+        background: -webkit-linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista2electrica_169016-15088.jpg);
+        background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista2electrica_169016-15088.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .texto-header{
+        font-size: 20px;
+        height: 350px;
+    }
+    .contenedorinfo {
+        height: 780px;
+        margin-top: 225px;
+    }
+    .contenedor-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-info {
+        width: 140px;
+        height: 140px;
+        justify-self: center;
+    }
+    .img-infoEnchufe {
+        width: 130px;
+        height: 140px;
+        margin-top: 50px;
+    }
+    .imgTrabajos {
+        margin: 0px 10px 15px;
+    }
+    .tituloOpiniones {
+        margin-bottom: 55px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+    .cards .card{
+        width: 65%;
+        height: 160px;
+        margin: 10px;
+    }
+    .producto > img {
+        width: 130px;
+        height: 145px;
+    }
+    .texto-contenido-card {
+        margin-left: 5px;
+    }
+    .tituloOpiniones {
+        font-size: 25px;
+    }
+    .tituloTienda > h1 {
+     font-size: 35px;
+    }
+    .navTienda >a {
+        color: aliceblue;
+        font-weight: 300;
+        text-decoration: none;
+        padding-right: 20px;
+        font-size: 13px;
+    }
+    
+    .chango {
+    width: 25px;
+    }
+    .cantidadCarrito {
+        width: 14px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: rgb(160, 28, 212);
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        display: none;
+        right: 10px;
+        top: 17px;
+    }
+    .modal-header-titulo{
+        font-size: 26px;
+    }
+    .modal-content > img{
+        width: 35px;
+    }
+    
+    .modal-content > h3{
+        font-size: 8px;
+        margin: 0px 5px 0px 5px;
+    }
+    .infoModal{
+        font-size: 10px;
+        margin: 0px 6px;
+    }
+    .eliminar-content > img{
+        width: 16px;
+    }
+    .modalCantidad{
+        margin: 0px;
+        font-size: 10px;
+    }
+    .aPagar{
+        font-size: 15px;
+    }
+    .botonY {
+        width: 109px;
+        height: 33px;
+        font-size: 11px;
+        margin: 0px;
+    }
+    .botonN {
+        width: 109px;
+        height: 33px;
+        font-size: 11px;
+        margin: 0px;
+    }
+    .sumar{
+        font-size: 8px;
+    }
+
+    .restar{
+        font-size: 8px;
+    }
+
+
+ }
+ @media(max-width:650px){
+    .contenedorinfo {
+        height: 805px;
+        margin-top: 265px;
+    }
+    .contenidoTextosAyuda > h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .comillas {
+        width: 60px;
+        height: 45px;
+        margin-top: 100px;
+    }
+    .p {
+        padding: 0px 0px 40px 0px;
+        text-align: center;
+        margin: 0px 70px;
+    }
+    .medios{
+        text-align: center;
+        margin: 0px 70px;
+        padding-left: 0px;
+    }
+    .metodoPago {
+        width: 400px;
+        height: 44px;
+        margin: 0px 120px 15px;
+    }
+    .producto > img {
+        width: 115px;
+        height: 140px;
+    }
+    .producto > h3{
+        font-size: 13px;
+     }
+    .productoDescripcion{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .precioProducto{
+        font-size: 15px;
+    }
+    .boton {
+        position: relative;
+        width: 102px;
+        height: 30px;
+        background-color: rgb(129, 31, 168);
+        color: #ffffff;
+        cursor: pointer;
+        text-align: center;
+    }
+    .boton-agregar {
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 30px;
+        border: 5px #bdc3c7;
+        font-size: 10px;
+    }
+ }
+ @media(max-width:600px){
+    .imagenes{
+        height: 150px;
+    }
+    .contenedorinfo {
+        height: 805px;
+        margin-top: 265px;
+    }
+    .contenido-textos h3 span{
+        margin-top: 4px;
+    }
+    #tituloInicio {
+        margin-top: 38px;
+    }
+    #headerIndex {
+        width: 100%;
+        height: 575px;
+    }
+    .texto-header {
+        font-size: 18px;
+    }
+
+    .productos{
+        height: 630px;
+    }
+    .producto > img {
+        width: 110px;
+        height: 135px;
+    }
+    .boton {
+        width: 102px;
+        height: 30px;
+    }
+    .boton-agregar {
+        font-size: 9px;
+    }
+    .contenido-textos h3 {
+        margin-bottom: 5px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .contenido-textos p {
+        font-size: 15px;
+    }
+    .tituloOpiniones {
+        font-size: 25px;
+    }
+    .imputArea{
+        justify-self: center;
+        background-color: hsla(0, 0%, 100%, 0.623);
+        border: none;
+        border-radius: 2px;
+        width: 250px;
+    }
+    .tituloPresupuesto {
+        font-size: 25px;
+    }
+    .tituloFormulario {
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    .botonPresupuesto{
+        width: 100px;
+        height: 30px;
+    }
+    .hover-galeria img {
+        width: 110px;
+    } 
+    .p {
+        padding: 0px 0px 40px 0px;
+        text-align: center;
+        margin: 0px 70px;
+    }
+    .modalHeaderButton {
+        font-size: 13px;
+    }
+    .modal-header-titulo{
+        font-size: 20px;
+    }
+    .modal-content > img{
+        width: 27px;
+    }
+    
+    .modal-content > h3{
+        font-size: 6px;
+        margin: 0px 5px 0px 5px;
+    }
+    .infoModal{
+        font-size: 8px;
+        margin: 0px 6px;
+    }
+    .eliminar-content > img{
+        width: 14px;
+    }
+    .modalCantidad{
+        margin: 0px;
+        font-size: 8px;
+    }
+    .aPagar{
+        font-size: 13px;
+    }
+    .botonY {
+        width: 98px;
+        height: 29px;
+        font-size: 9px;
+        margin: 0px;
+    }
+    .botonN {
+        width: 98px;
+        height: 29px;
+        font-size: 9px;
+        margin: 0px;
+    }
+    .sumar{
+        font-size: 7px;
+    }
+
+    .restar{
+        font-size: 7px;
+    }
+    
+ }
+ 
+ @media(max-width:575px) and (min-width:500px) {
+    .contenedorinfo {
+        height: 845px;
+        margin-top: 310px;
+    } 
+    .contenedorOpiniones {
+        height: 600px;
+    }
+    .texto-contenido-card p {
+        font-size: 11px;
+    }
+ }
+ @media(max-width:541px) and (min-width:500px) {
+    .texto-header{
+        font-size: 17px;
+    }
+    .producto > img {
+        width: 105px;
+        height: 130px;
+    }
+}
+
+ @media(max-width:500px){
+    .headerItems{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+    }
+    #logoHeader{
+        padding-left: 0px;
+    }
+    .logoSolutions {
+        height: 100px;
+    }
+    #headerIndex {
+        width: 100%;
+        height: 545px;
+        background: #bdc3c7;
+        background: -webkit-linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista3electrica_169016-15088.jpg);
+        background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista3electrica_169016-15088.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .contenedorinfo {
+        height: 845px;
+        margin-top: 310px;
+    } 
+    .contenido-textos p {
+        font-size: 13px;
+    }
+    .contenedorOpiniones {
+        height: 600px;
+    }
+    .cards .card{
+        width: 70%;
+        height: 150px;
+        margin: 10px;
+    }
+    .cards .card img{
+        width:55%;
+        height:55%;
+    }
+    .tituloOpiniones {
+        font-size: 23px;
+    }
+    .p {
+        padding: 0px 0px 40px 0px;
+        text-align: center;
+        margin: 0px 100px;
+        font-size: 13px;
+    }
+    .medios{
+        text-align: center;
+        margin: 0px 100px;
+        font-size: 13px;
+    }
+    .metodoPago {
+        width: 353px;
+        height: 36px;
+        margin: 0px 120px 15px;
+    }
+    .contenedor-info {
+       margin-top: 35px;
+    }
+    .titulo {
+        font-size: 25px;
+    }
+    .contenidoTextosAyuda>h1 {
+        font-size: 15px;
+    }
+    .imgPregunta > img {
+        width: 35px;
+        height: 50px;
+
+    }
+    .imgPreguntas {
+        height: 750px;
+    }
+    .contenedorPreguntas {
+        height: 750px;
+    }
+    .texto-header {
+        font-size: 15px;
+        height: 265px;
+    }
+    .texto-contenido-card p{
+        font-size: 11px;
+    }
+    .formularioPresupuesto {
+        height: 355px;
+    }
+    .tituloPresupuesto {
+        font-size: 20px;
+    }
+    #imgLogoI{
+        height: 35px;    
+        margin-top: 10px; 
+    }
+    #imgLogoF{
+        height: 35px;
+        margin-top: 10px;
+    }
+    #imgLogo{
+        height: 40px;
+        margin-top: 5px;
+    }
+    #headerAyuda{
+        display: flex;
+        flex-flow: column;
+    }
+    #logoAyuda >a> img{
+        margin: 0px;
+        height: 50px;
+        width: 60px;
+    }
+    #navAyuda {
+    padding-right: 0px; 
+    }
+    #navAyuda>a{
+        margin: 5px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .contenidoTextosAyuda>h1>span{
+        height: 20px;
+        width: 20px;
+        font-size: 14px;
+    }
+    .contenidoTextosAyuda>h1{
+        font-size: 17px;
+    }
+    .contenedorPreguntas{
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+    }
+    .contenedorPreguntas>h2{
+        font-size: 27px;
+    }
+    .hover-galeria img {
+        width: 90px;
+    }
+    .producto > img {
+        width: 109px;
+        height: 123px;
+        box-shadow: 0px 2px 2px 2px rgb(0 0 0 / 4%);
+    }
+    .boton {
+        width: 95px;
+        height: 28px;
+    }
+    .boton-agregar {
+        font-size: 9px;
+    }
+    .producto > h3{
+       font-size: 12px;
+    }
+    .precioProducto{
+        font-size: 14px;
+    }
+    .productoDescripcion{
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .tituloTienda > h1 {
+        font-size: 30px;
+       }
+    .navTienda >a {
+        color: aliceblue;
+        font-weight: 300;
+        text-decoration: none;
+        padding-right: 12px;
+        font-size: 11px;
+    }
+    .producto > img {
+        width: 95px;
+        height: 120px;
+    }
+       
+    .chango {
+        width: 22px;
+    }
+    .cantidadCarrito {
+        width: 14px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: rgb(160, 28, 212);
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        display: none;
+        right: 4px;
+        top: 16px;
+    }
+    #logoTienda > a> img {
+        height: 57px;
+        margin-left: 15px;
+    }
+    .modalHeaderButton {
+        font-size: 9px;
+    }
+    .modal-header-titulo{
+        font-size: 16px;
+    }
+    .modal-content > img{
+        width: 23px;
+    }
+    
+    .modal-content > h3{
+        font-size: 6px;
+        margin: 0px 5px 0px 2px;
+    }
+    .infoModal{
+        font-size: 6px;
+        margin: 0px 4px;
+    }
+    .eliminar-content > img{
+        width: 12px;
+    }
+    .modalCantidad{
+        margin: 0px;
+        font-size: 6px;
+    }
+    .aPagar{
+        font-size: 12px;
+    }
+    .botonY {
+        width: 87px;
+        height: 26px;
+        font-size: 8px;
+    }
+    .botonN {
+        width: 87px;
+        height: 26px;
+        font-size: 8px;
+    }
+    .sumar{
+        font-size: 6px;
+    }
+
+    .restar{
+        font-size: 6px;
+    }
+
+}
+@media(max-width:450px){
+    .contenido-textos p {
+        font-size: 13px;
+    }
+    .imgTrabajos {
+        width: 120px;
+        height: 75px;
+    }
+    .imgMarcas {
+        width: 115px;
+        height: 65px;
+    }
+    .contenedorinfo {
+        height: 830px;
+        margin-top: 290px;
+    }
+    .texto-contenido-card {
+        font-size: 13px;
+    }
+    .texto-contenido-card p{
+        font-size: 10px;
+    }
+    .comillas {
+        width: 45px;
+        height: 35px;
+        margin-top: 100px;
+    }
+    .cards .card{
+        width: 80%;
+        height: 150px;
+        margin: 10px;
+    }
+    .imagenes{
+        height: 130px;
+    }
+    .productos{
+        background: #eeeeee;
+        height: 500px;
+    }
+    .producto > img {
+        width: 90px;
+        height: 110px;
+    }
+    .boton {
+        width: 87px;
+        height: 26px;
+    }
+    .boton-agregar {
+        font-size: 8px;
+    }
+    .ayudaHeader{
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: center;
+    }
+
+}
+@media(max-width:400px){
+    .img-info {
+        width: 110px;
+        height: 110px;
+    }
+    .img-infoEnchufe {
+        width: 110px;
+        height: 115px;
+        margin-top: 50px;
+    }
+    .contenedorinfo {
+        height: 806px;
+        margin-top: 290px;
+    }
+    .texto-header{
+        font-size: 13px;
+    }
+    .p {
+        padding: 0px 0px 40px 0px;
+        text-align: center;
+        margin: 0px 120px;
+        font-size: 12px;
+    }
+    .medios{
+        text-align: center;
+        margin: 0px 120px;
+        font-size: 12px;
+    }
+    .metodoPago {
+        width: 305px;
+        height: 28px;
+        margin: 0px 120px 15px;
+    }
+    .contenedor-info {
+       margin-top: 5px;
+    }
+    .titulo {
+        font-size: 20px;
+    }
+    .contenidoTextosAyuda>h1 {
+        font-size: 13px;
+    }
+    .contenidoTextosAyuda>h1>span {
+        height: 16px;
+        width: 16px;
+        font-size: 11px;
+    }
+    .imgPregunta > img {
+        width: 25px;
+        height: 39px;
+    }
+    #headerIndex {
+        width: 100%;
+        height: 500px;
+        background: #bdc3c7;
+        background: -webkit-linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista3electrica_169016-15088.jpg);
+        background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista3electrica_169016-15088.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .tituloOpiniones {
+        font-size: 21px;
+    }
+    .contenedorOpiniones {
+        height: 600px;
+    }
+    .tituloFormulario {
+        font-size: 8px;
+    }
+    .formularioPresupuesto {
+        height: 355px;
+    }
+    .tituloPresupuesto {
+        font-size: 16px;
+    }
+    .imputArea {
+        width: 200px;
+    }
+    .imputs {
+        width: 140px;
+    }
+    .formularioPresupuesto {
+        height: 345px;
+    }
+    .imagenes{
+        height: 100px;
+    }
+    .productos{
+        background: #eeeeee;
+        height: 420px;
+    }
+    .producto > img {
+        width: 80px;
+        height: 100px;
+    }
+    .boton {
+        width: 87px;
+        height: 26px;
+    }
+    .hover-galeria img {
+        width: 60px;
+    }
+    .hover-galeria img {
+        width: 90px;
+    }
+    .boton {
+        width: 81px;
+        height: 25px;
+    }
+    .producto > h3{
+       font-size: 10px;
+    }
+    .precioProducto{
+        font-size: 12px;
+    }
+    .productoDescripcion{
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+    .tituloTienda > h1 {
+        font-size: 26px;
+       }
+    .navTienda >a {
+        color: aliceblue;
+        font-weight: 300;
+        text-decoration: none;
+        padding-right: 7px;
+        font-size: 10px;
+    }
+       
+    .chango {
+        width: 20px;
+    }
+    .cantidadCarrito {
+        width: 12px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: rgb(160, 28, 212);
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        display: none;
+        right: 1px;
+        top: 16px;
+    }
+    .modalHeaderButton {
+        font-size: 9px;
+    }
+    .modal-header-titulo{
+        font-size: 16px;
+    }
+    .modal-content > img{
+        width: 20px;
+    }
+    
+    .modal-content > h3{
+        font-size: 5px;
+        margin: 0px 5px 0px 5px;
+    }
+    .infoModal{
+        font-size: 5px;
+        margin: 0px 9px;
+    }
+    .eliminar-content > img{
+        width: 10px;
+    }
+    .modalCantidad{
+        margin: 0px;
+        font-size: 5px;
+    }
+    .aPagar{
+        font-size: 10px;
+    }
+    .botonY {
+        width: 69px;
+        height: 22px;
+        font-size: 6px;
+    }
+    .botonN {
+        width: 69px;
+        height: 22px;
+        font-size: 6px;
+    }
+    .sumar{
+        font-size: 5px;
+    }
+
+    .restar{
+        font-size: 5px;
+    }
+
+}
+@media(max-width:350px){
+    .texto-header{
+        font-size: 11px;
+    }
+    .p {
+        padding: 0px 0px 40px 0px;
+        text-align: center;
+        margin: 0px 130px;
+        font-size: 9px;
+    }
+    .medios{
+        text-align: center;
+        margin: 0px 130px;
+        font-size: 9px;
+    }
+    .metodoPago {
+        width: 276px;
+        height: 28px;
+        margin: 0px 120px 15px;
+    }
+    .contenedor-info {
+       margin-top: 5px;
+    }
+    .titulo {
+        font-size: 16px;
+    }
+    .imgPregunta > img {
+        width: 20px;
+        height: 30px;
+    }
+    .contenidoTextosAyuda>h1 {
+        font-size: 11px;
+    }
+    .contenidoTextosAyuda>h1>span {
+        height: 16px;
+        width: 16px;
+        font-size: 11px;
+    }
+    .tituloFormulario {
+        font-size: 7px;
+    }
+    .formularioPresupuesto {
+        height: 320px;
+    }
+    .tituloPresupuesto {
+        font-size: 14px;
+    }
+    .imputArea {
+        width: 180px;
+    }
+    .imputs {
+        width: 125px;
+    }
+    .botonPresupuesto{
+        width: 80px;
+        height: 25px;
+    }
+    .producto > img {
+        width: 75px;
+        height: 95px;
+    }
+    .boton {
+        width: 77px;
+        height: 24px;
+    }
+    .boton-agregar {
+        font-size: 7px;
+    }
+}
+@media(max-width:350px) and (min-width:300px){
+    .imgTrabajos {
+        width: 110px;
+        height: 70px;
+    }
+}
+
+    

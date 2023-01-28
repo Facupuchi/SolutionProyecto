@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Finaliza tu nueva compra, envios en el dia">
+    <meta name="keywords" content="Solutions, electricidad, herramientas, iluminacion, termicas">
+    <link rel="shortcut icon" href="../img/WhatsApp Image 2022-12-23 at 15.29.56.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/style.css">
+    <title>Finalizar compra</title>
+</head>
+<body class="bodyFinalizar">
+    <header class="headerFinalizar">
+        <div id="logoTienda">
+            <a href="../index.html"><img src="../img/WhatsApp Image 2022-12-23 at 15.29.56.png " alt="" ></a>
+        </div>
+        <nav class="navTienda">
+                <a href="../index.html">Salir</a>
+        </nav>
+    </header>
+    <main class="mainFinalizar">
+        <div class="imgFinalizar">            
+            <form action="" class="formulario" id="formulario">
+                <div class="tituloFinalizar"><h1>•Finalizar Compra•</h1>
+                 <div class="formularioGrupo" id="grupoNombre">
+                    <label for="nombre" class="formularioLabel">Nombre</label>
+                    <div class="formularioGrupoInput">
+                        <input type="text" class="formularioInput" name="nombre" id="nombre" placeholder="John">
+                        <i class="formularioEstado fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formularioInputError">El nombre solo debe contener letras y espacios.</p>
+                </div>
+
+                <div class="formularioGrupo" id="grupoApellido">
+                    <label for="apellido" class="formularioLabel">Apellido</label>
+                    <div class="formularioGrupoInput">
+                        <input type="text" class="formularioInput" name="apellido" id="apellido" placeholder="Doe">
+                        <i class="formularioEstado fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formularioInputError">El apellido solo debe contener letras y espacios.</p>
+                </div>
+
+                <div class="formularioGrupo" id="grupoEmail">
+                    <label for="email" class="formularioLabel">E-mail</label>
+                    <div class="formularioGrupoInput">
+                        <input type="email" class="formularioInput" name="email" id="email" placeholder="email@example.com">
+                        <i class="formularioEstadoE fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formularioInputError">El email puede contener solo puede contener letras, numeros, guiones, guion bajo y puntos.</p>
+                </div>
+                
+                <div class="formularioGrupo" id="grupoTelefono">
+                    <label for="telefono" class="formularioLabel">Telefono</label>
+                    <div class="formularioGrupoInput">
+                        <input type="text" class="formularioInput" name="telefono" id="telefono" placeholder="12345678901">
+                        <i class="formularioEstadoT fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formularioInputError">El campo solo debe contener numeros y el maximo son 14 digitos.</p>
+                </div>
+                
+                <div class="formularioGrupo" id="grupoNumeroTarjeta">
+                    <label for="numeroTarjeta" class="formularioLabel">Numero de tarjeta</label>
+                    <div class="formularioGrupoInput">
+                        <input type="text" class="formularioInput" name="numeroTarjeta" id="numeroTarjeta">
+                        <i class="formularioEstado fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formularioInputError">El campo debe contener 16 digitos.</p>
+                </div>
+
+                <div class="formularioGrupo" id="grupoCodigoSeguridad">
+                    <label for="codigoSeguridad" class="formularioLabel">Codigo de seguridad</label>
+                    <div class="formularioGrupoInput">
+                        <input type="text" class="formularioInput" name="codigoSeguridad" id="codigoSeguridad">
+                        <i class="formularioEstadoC fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formularioInputError">El campo debe contener 3 digitos.</p>
+                </div>
+                
+                <div class="formularioGrupo" id="grupoTerminos">
+                    <label class="formularioLabel">
+                        <input class="formularioCheckBox" type="checkbox" name="terminos" id="terminos">
+                        Acepto Terminos y Condiciones
+                    </label>
+                </div>
+                <div class="formularioMensaje" id="formularioMensaje">
+                    <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error:</b> Por favor rellena el formulario correctamente.</p>
+                </div>
+
+                <div class="formularioGrupo formularioBtnEnviar">
+                    <button type="submit" class="botonComprarF botonesFinalizar" id="botonCompra">Enviar</button>
+                    <p class="formularioMensajeExito" id="formularioMensajeExito">Formulario se envio exitosamente!</p>
+                </div>
+            </form>
+            </div>
+        </div>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/finalizar.js"></script>
+    <script src="https://kit.fontawesome.com/448b4657be.js" crossorigin="anonymous"></script>
+</body>
+</html>
