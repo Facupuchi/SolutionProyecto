@@ -1080,6 +1080,7 @@ cursor: pointer;
         background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista2electrica_169016-15088.jpg);
         background-size: cover;
         position: relative;
+        background-attachment: fixed;
     }
     .texto-header {
         font-size: 20px;
@@ -1248,6 +1249,7 @@ cursor: pointer;
         background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista2electrica_169016-15088.jpg);
         background-size: cover;
         position: relative;
+        background-attachment: fixed;
     }
     .texto-header{
         font-size: 20px;
@@ -1600,6 +1602,7 @@ cursor: pointer;
         background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista3electrica_169016-15088.jpg);
         background-size: cover;
         position: relative;
+        background-attachment: fixed;
     }
     .contenedorinfo {
         height: 845px;
@@ -1939,6 +1942,7 @@ cursor: pointer;
         background: linear-gradient(to right, hsla(211, 30%, 24%, 0.651), hsla(204, 8%, 76%, 0.664)), url(../img/electricista3electrica_169016-15088.jpg);
         background-size: cover;
         position: relative;
+        background-attachment: fixed;
     }
     .tituloOpiniones {
         font-size: 21px;
